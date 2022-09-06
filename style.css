@@ -51,3 +51,11 @@ h2{
     color: var(--ablue);
     background-color: var(--alink);
 }
+.right{
+    text-align: right;
+    width: 240px;
+
+}
+.left{
+    text-align: left;
+}
