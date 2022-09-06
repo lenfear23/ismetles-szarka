@@ -1,0 +1,53 @@
+:root{
+    --ablue:#F0F8FF;
+    --Dblue:#00008B;
+    --alink:#DC143C;
+}
+body{
+    background-color: var(--ablue);
+    color: var(--Dblue);
+}
+a{
+    color: var(--alink);
+}
+.kozep{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 70%;
+}
+h2{
+    color: var(--alink);
+}
+.szarkaTable{
+    width: 400px;
+}
+.szarkaTable td img{
+    width: 230px;
+    height: 153px;
+    border: 1px solid black;
+}
+.kep2{
+    float: right;
+    width: 230px;
+    height: 153px;
+    border: 1px solid black;
+}
+.besorolasTable{
+    width: 500px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.besorolasTable td{
+    border: none;
+    padding: 6px;
+    margin: 6px;
+}
+.alcim{
+    text-align: center;
+    color: var(--ablue);
+    background-color: var(--alink);
+}
